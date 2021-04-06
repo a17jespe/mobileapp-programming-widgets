@@ -41,7 +41,8 @@ While utilizing solely the code-portion of designing UI probably works very well
  the design GUI in Android Studio allows for a very beginner friendly approach before deep delving in the code-compartment.
 
 The following image displays the resulting GUI. While it's not pretty, it is functional and was a practice-assignment.
-The button opens the browser where my github is displayed. To make this function I imported two libraries, one named content.Intent and one named net.Uri.
+The button opens the browser where my github is displayed. To make this function I imported two libraries, one named 'content.Intent' and one named 'net.Uri'.
 They allowed me to easily open the link in a browser with a small amount of code. I believe webview would also enable this as I have in the previous assignment managed to do so by accident.
+I could also have added a webview to the app and open it in the app, but I wanted to try using exterior resources.
 
 ![](2_in_app.png)
