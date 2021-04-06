@@ -1,7 +1,5 @@
 # Rapport
 
-**Skriv din rapport här!**
-
 ##### 1 - Layout and widgets
 
 Through the utilization of the design interface I were able to easily add widgets and to some degree position them where I wanted.
@@ -23,7 +21,7 @@ The element choices for the image resulted in the following code:
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
-                android:layout_height="420dp" // Decides the height of the element
+                android:layout_height="420dp"  // Decides the height of the element
                 android:layout_marginStart="0dp" // How far from the top which the element shall start. Increasing this will add distance between the top of the parent and/or previous element.
                 android:layout_marginLeft="0dp"
                 android:layout_marginTop="5dp" // How far from the previous element which this element starts. This has a similar functionality as marginStart but works in relation to other elements, marginStart fits the first element below a parent best, from my understand that is.

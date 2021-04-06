@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Button button = findViewById(R.id.button_github);
+        final Button button = findViewById(R.id.button_github); // This line, in combination with the following listener, adds functionality to the button.
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/a17jespe/")); // Assigns the action of opening URL to the variable intent

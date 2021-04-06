@@ -11,8 +11,12 @@
         android:layout_height="match_parent">
 
         <TableRow
+
             android:layout_width="match_parent"
             android:layout_height="314dp">
+            <!--//To my understanding, dp is the preferred measurement when deciding size as it translates easier to the device's pixel-measurements.-->
+
+            <!--The following node decides the placement of the image, what content description is linked to ita nd which image is used for it.-->
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -24,13 +28,13 @@
                 android:layout_marginEnd="0dp"
                 android:layout_marginRight="0dp"
                 android:contentDescription="@string/author_img_content"
-                app:srcCompat="@drawable/pettan_e3_wm" />
-        </TableRow>
+                app:srcCompat="@drawable/pettan_e3_wm"/>
+            </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
-
+            <!--The following node decides how the text is positioned, how it's formatted and what string is presented-->
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
@@ -50,7 +54,7 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
-
+            <!-- Similar to previous nodes, this decides placement and content of the linked button-->
             <Button
                 android:id="@+id/button_github"
                 android:layout_width="wrap_content"
